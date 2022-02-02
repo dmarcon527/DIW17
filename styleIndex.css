@@ -1,0 +1,52 @@
+h1,
+h2,
+nav {
+  text-align: center;
+}
+p {
+  margin-left: 70vh;
+}
+main {
+  grid-column-start: 3;
+  background-color: darkgrey;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column-end: 2;
+  justify-content: center;
+}
+
+img,
+iframe {
+  margin-left: 70vh;
+  width: 30vmax;
+  height: 30vmax;
+  margin-block: 10px;
+}
+.Abajo {
+  border-top: 50%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  div:nth-child(2) {
+    display: none;
+  }
+  div:nth-child(2) {
+    display: block;
+  }
+}
+@media (min-width: 900px) {
+  div:nth-child(2) {
+    display: none;
+  }
+  div:nth-child(2) {
+    display: block;
+  }
+}
